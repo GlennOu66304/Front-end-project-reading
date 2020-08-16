@@ -84,6 +84,77 @@
 												<i class="input-icon uil uil-at"></i>
 											</div>	
 ```
+all in container:[All-in-one](https://getbootstrap.com/docs/4.5/layout/overview/)  
+```
+<div class="container">
+```
+row:[Basic Structure of a Bootstrap Grid](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp): it is one part of the bootstrap Grid stucture to tell you row will be created;  
+full-height:[full-height](https://www.w3schools.com/howto/howto_css_div_full_height.asp): stretch elements to fit the whole height of the browser window with CSS;  
+Justify content:[Justify content](https://getbootstrap.com/docs/4.1/utilities/flex/): put the box into the center;  
+other resources:  
+[Grid system](https://getbootstrap.com/docs/4.0/layout/grid/)  
+```
+<div class="row full-height justify-content-center">
+```
+col-12:[Mix and match](https://getbootstrap.com/docs/4.0/layout/grid/): break a points  
+text-center:[Text alignment](https://getbootstrap.com/docs/4.0/utilities/text/): put the text into the center  
+align-self-center:[Align self](https://getbootstrap.com/docs/4.0/utilities/flex/#align-items): put the grid into the center  
+py-5:[Notation](https://getbootstrap.com/docs/4.0/utilities/spacing/): at top and the bottom to add 5 padding  
+other resources:  
+[.py](https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp)  
+[Bootstrap class: .py-1](https://bootstrapshuffle.com/classes/spacing/py-1+%25_F+py-*-%23)  
+[More Spacing Examples](https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp)  
+
+```				
+<div class="col-12 text-center align-self-center py-5">
+```
+pt-sm-2 :[Applying margin top and bottom example](https://www.jquery-az.com/bootstrap-margin-padding-classes-spacing-explained-5-examples/)Add padding top to 2  
+[{property}{sides}-{breakpoint}-{size} for sm](https://getbootstrap.com/docs/4.0/utilities/spacing/)  
+```
+
+					<div class="section pb-5 pt-5 pt-sm-2 text-center">
+```
+span:[generic inline container for phrasing content](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span): higlight certain part of text
+W3School:[HTML <span> Tag](https://www.w3schools.com/tags/tag_span.asp)  
+
+```
+						<h6 class="mb-0 pb-3"><span>Log In </span><span>Sign Up</span></h6>
+```
+input:[HTML input element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input):create a square box for inputing
+other resources:  
+[HTMLinput Tag](https://www.w3schools.com/tags/tag_input.asp)
+[HTML Input Types](https://www.w3schools.com/html/html_form_input_types.asp)  
+```
+			          	<input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
+```
+label:[The HTML label element represents a caption for an item in a user interface.](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) a text or content which is next to the input box  
+[HTML labelTag](https://www.w3schools.com/tags/tag_label.asp)  
+```
+			          	<label for="reg-log"></label>	
+```	
+mx-auto: [Horizontal centering](https://getbootstrap.com/docs/4.0/utilities/spacing/) Maxium Horizontal centering:	          	
+```					
+					<div class="card-3d-wrap mx-auto">
+							<div class="card-3d-wrapper">
+								<div class="card-front">
+									<div class="center-wrap">
+										<div class="section text-center">
+											<h4 class="mb-4 pb-3">Log In</h4>
+											<div class="form-group">
+												<input type="email" name="logemail" class="form-style" placeholder="Your Email" id="logemail" autocomplete="off">
+												<i class="input-icon uil uil-at"></i>
+											</div>	
+```
+
+[Basic Structure of a Bootstrap Grid](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp)  
+Note:  
+1.overview file will like open in the browser as raw format;  
+2. add the resource link and funxtion into the thoughts on the file to do a quick link.  
+3. change the value in the html code by developrt tool and verify it in the Comouted box too.  
+
+
+
+
 ##### 2.password in the codepen section
 ```
 											<div class="form-group mt-2">
