@@ -1,4 +1,4 @@
-## 6.Note:  
+## 1.Note:  
 1.overview;  
 2.add the understanding into the under the code,markdown;  
 ```
@@ -16,7 +16,7 @@ c. or just ctr + f then type the element into the search bar;
 5.utilize the developer tool help you to understand the project file.
 6.type all the code by hands again; 
 
-## 7.resources:
+## 2.resources:
 code in github:[log-in-sign-uppure-css12](https://github.com/GlennOu66304/Full-stack-project-reading/tree/master/log-in-sign-uppure-css12)  
 code in the code pen
 [Log In / Sign Up - pure css - #12](https://codepen.io/ig_design/pen/KKVQpVP) 
